@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeforces API</title>
+</head>
+<body>
+
+    <form action="/login" id="myform" method="POST">
+        <label for="handle">Enter Handle name</label>
+        <input type="text" placeholder="Handle Name" name="handle" id="handle">
+
+        <label for="no_ques">Enter the no. of Question you want</label>
+        <input type="number" placeholder="No. of Question" name="ques_no" id="no_ques">
+        
+        <label for="tag">Enter the tag </label>
+        <input type="text" placeholder="Tag of question" id="tag" name="tag">
+        
+        <input type="submit" value="Get" id="submit">
+    </form>
+    <div id="box"></div>
+
+
+    <script src="server.js"></script>
+
+
+</body>
+</html>
